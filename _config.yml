@@ -3,37 +3,37 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Bonsailinse
+subtitle: 'No need for this.'
 description: ''
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Bonsailinse
+language: de
+timezone: 'Europe/Berlin'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://bonsailinse.net
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+tag_dir: tag
+archive_dir: archive
+category_dir: category
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
-default_layout: post
+default_layout: draft
 titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
@@ -48,7 +48,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: '4'
   wrap: true
   hljs: false
 
@@ -62,7 +62,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: none
 category_map:
 tag_map:
 
@@ -74,7 +74,7 @@ meta_generator: true
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: DD.MM.YYYY
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
 use_date_for_updated: false
@@ -93,9 +93,33 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+theme_config:
+  darkmode: true
+  reminder: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:Bonsailinse/bonsailinse.github.io.git
+  branch: master
+  token: $HEXO_GITHUB_TOKEN
+
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: true
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 300
+  content_limit_delim: ' '
+  order_by: -date
+  icon:
+  autodiscovery: true
+  template:
