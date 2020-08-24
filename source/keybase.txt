@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/bonsailinse
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bonsailinse.net
+  * I am bonsailinse (https://keybase.io/bonsailinse) on keybase.
+  * I have a public key with fingerprint C623 6688 B8CE 99EB 4632  CF90 5BAC C121 196F EE46
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101974d3f55a8b28ea652253b71d02bb5cddd2aa22df830ea352b06c42121a46c160a",
+      "fingerprint": "c6236688b8ce99eb4632cf905bacc121196fee46",
+      "host": "keybase.io",
+      "key_id": "5bacc121196fee46",
+      "kid": "0101974d3f55a8b28ea652253b71d02bb5cddd2aa22df830ea352b06c42121a46c160a",
+      "uid": "3c877bec140a17230af9e6eb670f3f19",
+      "username": "bonsailinse"
+    },
+    "merkle_root": {
+      "ctime": 1598264348,
+      "hash_meta": "ec99ddaee9ef41776dfa9ecf77288b59f1fa15307229d8c2bc83e535099f8f1c",
+      "seqno": 17366952
+    },
+    "revoke": {
+      "sig_ids": [
+        "74e88a0cdb7a7d88d40e7e2dde4817676175fd8011533b18f852b727fb0b1cb80f"
+      ]
+    },
+    "service": {
+      "hostname": "bonsailinse.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1598264398,
+  "expire_in": 157680000,
+  "prev": "d60e4d16b2d90a61f3a7801bcab09a41af8863ad65deadca4be3552d60d63064",
+  "seqno": 57,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMK4AnicrZNfaB1FGMVvbGpJbLXRlxifsggW06Qzs7vzJxZFFNEiCTbUUtP2On++
+SZab3L3u7r1pjEkVEatVkFBEtFKppm3ofWiFBqWtttdSIi1IDfigVJFooQ/VJ8mL
+Kc4GRVAf3Zdld88535nf7FxYt6rQ2nSpL/2kv/bE/qZLjclqofjIgb4JT8Vm3Oud
+8EqwcoMRA2lWLEXG6/UQRliwwPg2DCVXhIOkISGhrxg2iCgVamMMkZIQY7mPQPoh
+UYjqgGCCZUA1pkh6Gz0blYcgqSRROXOxmhKfUs4V1yAEqID6RFuBQiW1dkYsqAUI
+qDMOx2nucOWUTKEnit0791Bcqfcf+v+5d3UlztecMQUaB0hiRnwkrQAKijJkfYtF
+LkwhKctRcGoVl1MZjUTlFLzJjd4oJKURKCZxnOV8dRblKhwKTmjgB9ytUabDxVHI
+pDODFsIYCSDABpgxaqwUoC1jxPEKhcVW4tBHjBBhuCZKcx9CP0RCWG6xdlVSeK4c
+uwnMMRYhcRUSqMUlyKen0ZBDl3q9gx4LgHOJtFFMMsO5CRAwIMZAwDGjjGIWWsMR
+duN8hbnlDhEjzCqksFYcWW/XZD4tqUV6JTzfq38z6ClD5lpVkjiLdTziPg5nWSXt
+zdlk45VcPQaq+GdOUUVl434W56hBkkZx2a3EKf+BTThssKcSJVCMckXIKEfuyudA
+zUUaiiAwmCpiBJIUW18ytxalpUJCBlhazqkvDQ0NSKNloMAPQ+JshvqIBn9zDJnr
+KYdcpoNXllk1cdvaOLezudDUWrh19S35KSq0tqz/62zV59fc7N7XvPf2gy1rC+8/
+sHW2Z/n35Z/WffXg4tf1X6aO1rs2nx9cnH/psVc6p69v6Vwz/s59s4PH+1pngubK
+xRJ5fOHw3JbXfxz4bvjL2bVCJt19hzasP3Hs7p6BpUbL+NKG7rYzO97+9Nnrt82c
+ffXw7PdNVzveXL5ST5enbjb/MN3+KBx54eT5gx/tf3HbG52r79j2cX/p+De75k/1
+vXz0Kntq++WlrnenP2xvPLnvzJX+bPtDp+/pqH62UD+H7m3raH947Nru9vmfr616
+zW/ZeufAgQX0+cXOEzfSycvdp55pm/rtg9Mw8/Rw044pPXfyxqZDE99Od4mxTXPF
+xV8bd7117Mj4ns07K3vv/+J5uPBe9Q/Y34I4
+=hJFm
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bonsailinse
+
+==================================================================
