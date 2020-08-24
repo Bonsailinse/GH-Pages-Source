@@ -16,7 +16,7 @@ tags:
 sidebar: false
 toc:
   enable: false
-date: 2020-08-23 15:51:27
+date: 2020-08-24 10:03:03
 ---
 
 
@@ -37,4 +37,4 @@ Nachdem ich zwischen verschiedenen Lösungen hin- und hergewechselt habe, habe i
 {% asset_img mindmap.svg %}
 
 Ich wollte hier ursprünglich meinen Workflow für neue Projekte visualisieren, am Ende ist es dann eher eine Übersicht über meine Tools geworden.
-Ich denke, ich werde in einem der nächsten Beiträge mal auf ein paar Details eingehen, würde mich nicht wundern, wenn die Graphik nicht so eindeutig ist, wie sie mir vorkommt.
+Ich denke, ich werde in einem der nächsten Beiträge mal auf ein paar Details eingehen, würde mich nicht wundern, wenn die Graphik nicht so eindeutig ist, wie sie mir vorkommt. Vermutlich habe ich auch einige Dinge durcheinandergewürfelt, seht es mir nach, es ist erstmal nur ein Konzept.
