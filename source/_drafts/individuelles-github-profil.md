@@ -1,5 +1,5 @@
 ---
-title: {{ title }}
+title: individuelles-github-profil
 description:
 categories:
 -
